@@ -79,11 +79,102 @@ header{
             }
         }
     }
+    .header-contents-mobile {
+        display: none;
+        flex-direction: column;
+        padding: 12px;
+        .header-mobile{
+            display: flex;
+            align-items: center;
+            .menu-mobile{
+                background: #fff;
+                padding: 5px;
+                .menu-mobile-img{
+                    height: 20px;
+                }  
+            }
+            .menu-mobile-swrap{
+                background: rgba(0, 0, 0, 0.25);
+                position: absolute;
+                width: 100%;
+                height: 100%;
+               top: 0;
+                margin-left: -18px;
+                .menu-mobile-contents{
+                    position: absolute;
+                    background: gray;
+                    width: 250px;
+                    margin-left: 2px;
+                    min-height: 768px;
+                    margin-top: 1px;
+                    .menu-mobile-close-btn{
+                        width: 100%;
+                        display: flex;
+                        justify-content: end;
+                        button{
+                            color: #fff;
+                            padding: 3px 6px 3px 6px;
+                            margin-right: 5px;
+                            margin-top: 5px;
+                            background: red;
+                            border: none;
+                        }
+                    }
+                    ul{
+                        list-style-type: none;
+                        align-items: start;
+                        text-align: initial;
+                        li{
+                            font-family: "Roboto Condensed", sans-serif;
+                            color: #fff;
+                            margin-right: 20px;
+                            text-transform: uppercase;
+                            font-size: 32px;
+                            margin-top: 6px;
+                        }
+                    }
+                }
+            }
+            .logo-header-mobile{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                .icon-mobile{
+                    height: 50px;
+                    width: 50px;
+                    background: #fff;
+                    border-radius: 50%;
+                    margin-right: 5px;
+                }
+                h1{
+                    color: #fff;
+                    text-transform: uppercase;
+                }
+            }
+            
+        }
+        .search-mobile{
+            width: 100%;
+            display: flex;
+            .input-mobile{
+                width: 100%;
+                height: 30px;
+            }
+            .button-mobile{
+                width: 39px;
+                height: 36px;
+            }
+        }
+
+        
+    }
 }
 
 @media only screen and (max-width: 1200px) {
 
     header{
+        height: 140px;
     .header-contents-desktop{
         display: none;
     }
