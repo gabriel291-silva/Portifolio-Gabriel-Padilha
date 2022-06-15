@@ -65,6 +65,7 @@ header{
                 background: gray;
                 margin-top: 25px;
                 margin-left: 6px;
+                z-index: 10;
 
                 ul{
                     list-style-type: none;
@@ -107,6 +108,7 @@ header{
                     margin-left: 2px;
                     min-height: 768px;
                     margin-top: 1px;
+                    z-index: 10;
                     .menu-mobile-close-btn{
                         width: 100%;
                         display: flex;

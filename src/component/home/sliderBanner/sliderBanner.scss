@@ -1,0 +1,30 @@
+
+.slide-contents{
+    margin-bottom: 64px;
+}
+.swiper{
+    height: 400px;
+
+    img{
+        height: 400px;
+        width: 100%;
+    }
+    .text-banner{
+        position: absolute;
+        top: 83px;
+        left: 190px;
+        height: 100px;
+        width: 300px;
+        color: #fff;
+    }
+
+    .swiper-button-next{
+        color: #fff;
+    }
+    .swiper-button-prev{
+        color: #fff;
+    }
+    .swiper-pagination-bullet-active{
+        background: #fff;
+    }
+}

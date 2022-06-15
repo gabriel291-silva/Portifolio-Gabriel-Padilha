@@ -1,0 +1,23 @@
+.shelf-contents{
+    background: gray;
+    width: 100%;
+    padding: 12px 0 12px 0;
+    .swiper{
+        max-width: 1000px;
+        margin: 0 auto;
+
+        .swiper-button-prev {
+            color: black;
+        }
+        .swiper-button-next{
+            color: black;
+        }
+
+    }
+    .card{
+        background: #fff;
+    height: 400px;
+    width: 250px;
+    margin-left: 45px;
+    }
+}
