@@ -1,16 +1,33 @@
 .shelf-contents{
-    background: gray;
+    background: #D3D3D3;
     width: 100%;
-    padding: 12px 0 12px 0;
+    padding: 32px 0 32px 0;
+
+    h1{
+        text-align: initial;
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 0 0px 0 77px;
+        font-size: 32px;
+        font-family: 'Roboto Condensed';
+        font-weight: bold;
+        text-transform: capitalize;
+    }
     .swiper{
         max-width: 1000px;
         margin: 0 auto;
 
         .swiper-button-prev {
-            color: black;
+            color: #fff;
+            background: dimgray;
+            padding: 12px;
+            border-radius: 0px 17px 0px 29px;
         }
         .swiper-button-next{
-            color: black;
+            color: #fff;
+            background: dimgray;
+            padding: 12px;
+            border-radius: 17px 0px 29px 0px;
         }
 
     }
@@ -19,5 +36,42 @@
     height: 400px;
     width: 250px;
     margin-left: 45px;
+    border-radius: 10px;
+    .card-image-contents{
+        display: flex;
+    height: 200px;
+    padding: 12px;
+
+       img{
+        height: 196px;
+    }
+   
+    }
+    .card-infos{
+        display: flex;
+        flex-direction: column;
+        padding: 0 12px;
+        p{
+            font-size: 19px;
+            font-family: sans-serif;
+            font-weight: 800;
+            text-transform: uppercase;
+            height: 54px;
+            margin: 0;
+        }
+        span{
+            color: red;
+            height: 72px;
+        }
+        button{
+            background: lightgray;
+            border: none;
+            padding: 9px;
+            border-radius: 4px;
+            font-size: 18px;
+            font-family: 'Roboto Condensed';
+            font-weight: 600;
+        }
+    }
     }
 }

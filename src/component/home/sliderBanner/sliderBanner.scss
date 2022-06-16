@@ -16,13 +16,25 @@
         height: 100px;
         width: 300px;
         color: #fff;
+        h1{
+            font-family: 'Roboto Condensed';
+        }
+        p{
+            font-family: 'Roboto Condensed';
+        }
     }
 
+    .swiper-button-prev {
+        color: #fff;
+        background: dimgray;
+        padding: 12px;
+        border-radius: 0px 17px 0px 29px;
+    }
     .swiper-button-next{
         color: #fff;
-    }
-    .swiper-button-prev{
-        color: #fff;
+        background: dimgray;
+        padding: 12px;
+        border-radius: 17px 0px 29px 0px;
     }
     .swiper-pagination-bullet-active{
         background: #fff;

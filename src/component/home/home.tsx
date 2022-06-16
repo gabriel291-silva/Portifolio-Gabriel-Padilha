@@ -8,6 +8,7 @@ function Home(){
         <SliderBanner/>
         <SectionCAtegory/>
         <ShelfHome/>
+        <ShelfHome/>
 
     </div>)
 }
