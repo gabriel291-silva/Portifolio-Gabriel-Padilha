@@ -1,0 +1,42 @@
+
+.slide-contents{
+    margin-bottom: 64px;
+}
+.swiper{
+    height: 400px;
+
+    img{
+        height: 400px;
+        width: 100%;
+    }
+    .text-banner{
+        position: absolute;
+        top: 83px;
+        left: 190px;
+        height: 100px;
+        width: 300px;
+        color: #fff;
+        h1{
+            font-family: 'Roboto Condensed';
+        }
+        p{
+            font-family: 'Roboto Condensed';
+        }
+    }
+
+    .swiper-button-prev {
+        color: #fff;
+        background: dimgray;
+        padding: 12px;
+        border-radius: 0px 17px 0px 29px;
+    }
+    .swiper-button-next{
+        color: #fff;
+        background: dimgray;
+        padding: 12px;
+        border-radius: 17px 0px 29px 0px;
+    }
+    .swiper-pagination-bullet-active{
+        background: #fff;
+    }
+}

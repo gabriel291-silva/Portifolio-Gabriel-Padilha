@@ -1,0 +1,43 @@
+h1{
+    font-family: 'Roboto Condensed';
+    text-transform: capitalize;
+}
+.category-section-contents{
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 32px;
+    .card{
+        position: relative;
+        width: 167px;
+        height: 167px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 12px;
+        margin-right: 12px;
+        background-color: #363636;
+        border-radius: 12px;
+        .image-card{
+            width: 100%;
+            height: auto;
+        }
+        .image{
+            height: 100%;
+        }
+       .div-title{
+        width: 100%;
+        height: 50px;
+        background: black;
+        border-radius: 0 0 12px 12px;
+        p{
+            color: #fff;
+        }
+        }
+    }
+    .card::hover{
+        border: solid 1px black;
+    }
+}
