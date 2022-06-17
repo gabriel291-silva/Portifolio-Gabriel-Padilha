@@ -9,6 +9,7 @@ h1{
     width: 100%;
     justify-content: center;
     margin: 0 auto;
+    margin-bottom: 32px;
     .card{
         position: relative;
         width: 167px;
@@ -35,5 +36,8 @@ h1{
             color: #fff;
         }
         }
+    }
+    .card::hover{
+        border: solid 1px black;
     }
 }
